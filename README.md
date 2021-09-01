@@ -21,8 +21,7 @@ Extract the zip and install.
 
 Step 2: Clone this repo. It will create cpp_evalTfLite folder. CD to this folder.
 
-Step 3: Clone TensorFlow repository inside cpp_evalTfLite
-git clone https://github.com/tensorflow/tensorflow.git tensorflow_src
+Step 3: Clone TensorFlow repository inside cpp_evalTfLite: git clone https://github.com/tensorflow/tensorflow.git tensorflow_src
 
 Step 4: Create CMake build directory and change to this directory, On Linux:
 mkdir tflite_build
