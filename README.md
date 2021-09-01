@@ -62,56 +62,8 @@ build\FP16-source\include
 
 
 Client Application dependencies runtime:
+tensorflow-lite\Release\tensorflow-lite.lib
 cpuinfo\Release\cpuinfo.lib
 clog\Release\clog.lib
 pthreadpool\Release\pthreadpool.lib
-
-All in build\_dep folder as below, Search for *.lib extension
-
-tensorflow-lite\Release\tensorflow-lite.lib
-_deps\abseil-cpp-build\absl\flags\Release\absl_flags.lib
-_deps\abseil-cpp-build\absl\flags\Release\absl_flags_internal.lib
-_deps\abseil-cpp-build\absl\flags\Release\absl_flags_marshalling.lib
-_deps\abseil-cpp-build\absl\flags\Release\absl_flags_reflection.lib
-_deps\abseil-cpp-build\absl\flags\Release\absl_flags_config.lib
-_deps\abseil-cpp-build\absl\flags\Release\absl_flags_program_name.lib
-_deps\abseil-cpp-build\absl\flags\Release\absl_flags_private_handle_accessor.lib
-_deps\abseil-cpp-build\absl\flags\Release\absl_flags_commandlineflag.lib
-_deps\abseil-cpp-build\absl\flags\Release\absl_flags_commandlineflag_internal.lib
-_deps\abseil-cpp-build\absl\container\Release\absl_raw_hash_set.lib
-_deps\abseil-cpp-build\absl\container\Release\absl_hashtablez_sampler.lib
-_deps\abseil-cpp-build\absl\base\Release\absl_exponential_biased.lib
-_deps\abseil-cpp-build\absl\hash\Release\absl_hash.lib
-_deps\abseil-cpp-build\absl\hash\Release\absl_city.lib
-_deps\abseil-cpp-build\absl\hash\Release\absl_wyhash.lib
-_deps\abseil-cpp-build\absl\status\Release\absl_status.lib
-_deps\abseil-cpp-build\absl\strings\Release\absl_cord.lib
-_deps\abseil-cpp-build\absl\types\Release\absl_bad_optional_access.lib
-_deps\abseil-cpp-build\absl\strings\Release\absl_str_format_internal.lib
-_deps\abseil-cpp-build\absl\synchronization\Release\absl_synchronization.lib
-_deps\abseil-cpp-build\absl\debugging\Release\absl_stacktrace.lib
-_deps\abseil-cpp-build\absl\debugging\Release\absl_symbolize.lib
-_deps\abseil-cpp-build\absl\debugging\Release\absl_debugging_internal.lib
-_deps\abseil-cpp-build\absl\debugging\Release\absl_demangle_internal.lib
-_deps\abseil-cpp-build\absl\synchronization\Release\absl_graphcycles_internal.lib
-_deps\abseil-cpp-build\absl\base\Release\absl_malloc_internal.lib
-_deps\abseil-cpp-build\absl\time\Release\absl_time.lib
-_deps\abseil-cpp-build\absl\strings\Release\absl_strings.lib
-_deps\abseil-cpp-build\absl\strings\Release\absl_strings_internal.lib
-_deps\abseil-cpp-build\absl\base\Release\absl_throw_delegate.lib
-_deps\abseil-cpp-build\absl\base\Release\absl_base.lib
-_deps\abseil-cpp-build\absl\base\Release\absl_spinlock_wait.lib
-_deps\abseil-cpp-build\absl\numeric\Release\absl_int128.lib
-_deps\abseil-cpp-build\absl\time\Release\absl_civil_time.lib
-_deps\abseil-cpp-build\absl\time\Release\absl_time_zone.lib
-_deps\abseil-cpp-build\absl\types\Release\absl_bad_variant_access.lib
-_deps\abseil-cpp-build\absl\base\Release\absl_raw_logging_internal.lib
-_deps\abseil-cpp-build\absl\base\Release\absl_log_severity.lib
-_deps\farmhash-build\Release\farmhash.lib
-_deps\fft2d-build\Release\fft2d_fftsg2d.lib
-_deps\fft2d-build\Release\fft2d_fftsg.lib
-_deps\flatbuffers-build\Release\flatbuffers.lib
-_deps\ruy-build\Release\ruy.lib
-_deps\xnnpack-build\Release\XNNPACK.lib
-
-
++All in build\_dep folder as below, Search for *.lib extension
