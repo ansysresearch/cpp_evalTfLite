@@ -41,9 +41,10 @@ In the cpp_evalTfLite directory
 Linux: ./build/TestingTfLiteCpuDeployment
 Windows: Cmake will only create the VS Project files: You will need to compile and link all binaries using VS.
 
-Note on compile time and run time dependencies: All runtime dependencies are generated in top level build folder.
+Note on compile time and run time dependencies: All runtime dependencies are generated in top level build folder:
 
 Tesorflow static Lib compile time dependencies:
+
 tensorflow_src
 tensorflow_src\tensorflow\lite\schema
 build\pthreadpool-source\include
