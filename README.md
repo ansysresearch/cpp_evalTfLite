@@ -15,6 +15,8 @@ If Cmake is not installed, install it for Windows or Linux first below Step 1.
 
 Step 1: Install Cmake(3.16 or higher): For Linux/Ubuntu, you can simply run the following command: 
 sudo apt-get install cmake
+For Redhat:
+sudo dnf install cmake gcc-c++ make
 
 For windows: Download Cmake(3.16 or higher) from https://cmake.org/download/
 Extract the zip and install.
