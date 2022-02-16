@@ -32,14 +32,21 @@ cd tflite_build
 Step 5: Run CMake tool with configurations, It generates an optimized release binary by default. If you want to build for your workstation, simply run the following command:
 cmake ../tensorflow_src/tensorflow/lite or cmake ../tensorflow_src/tensorflow/lite -DCMAKE_BUILD_TYPE=Debug 
 
-Step 6: Build TensorFlow Lite Lib and client executable using top level cmake. Go two level up to cpp_evalTfLite folder 
-In the cpp_evalTfLite directory
-Linux: cmake --build . -j or cmake --build build -- -j3
-Windows: cmake -H. -Bbuild
+Step 6: Create CMake build directory for client executable, go two level up, prallel to cpp_evalTfLite folder and create a directory named "cpp_evalTfLite_build". On Linux:
 
-Step 7: Run the Exe 
+mkdir cpp_evalTfLite_build
+cd cpp_evalTfLite_build
+
+Step 7: Run CMake tool to generate configurations for cpp_evalTfLite from cpp_evalTfLite_build
+cmake ../cpp_evalTfLite
+
+Step 8: Build TensorFlow Lite Lib and client executable using top level cmake 
 In the cpp_evalTfLite directory
-Linux: ./build/TestingTfLiteCpuDeployment
+Linux: cmake --build cpp_evalTfLite_build -- -j3
+Windows: cmake -H. -Bcpp_evalTfLite_build
+
+Step 9: Run the Exe, got first to cpp_evalTfLite_build 
+Linux: ./TestingTfLiteCpuDeployment
 Windows: Cmake will only create the VS Project files: You will need to compile and link all binaries using VS.
 
 Note on compile time and run time dependencies: All runtime dependencies are generated in top level build folder:
